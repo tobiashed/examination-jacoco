@@ -7,5 +7,10 @@ public class MainTest {
 	public void testMainMethod() {
 		Main.main(null);
 	}
+	@Test
+	public void testMain1Method() {
+		Main main = new Main();
+		Main.main(null);
+	}
 
 }
